@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/VideoProc/SRAM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../CQWorks/Papilio戦車/downloadarchiveold/Tsuiseki/VerilogHdl/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SRAM.v"/>
+        <Attr Name="ImportTime" Val="1401513453"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VideoProc/VGA_CTRL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../CQWorks/Papilio戦車/downloadarchiveold/Tsuiseki/VerilogHdl/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v"/>
+        <Attr Name="ImportTime" Val="1356857072"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VideoProc/SDRAM_CTRL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../CQWorks/Papilio戦車/downloadarchiveold/Tsuiseki/VerilogHdl/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v"/>
+        <Attr Name="ImportTime" Val="1401591860"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VideoProc/LINEOUT_CTRL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../CQWorks/Papilio戦車/downloadarchiveold/Tsuiseki/VerilogHdl/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v"/>
+        <Attr Name="ImportTime" Val="1401591867"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VideoProc/LINEIN_CTRL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../CQWorks/Papilio戦車/downloadarchiveold/Tsuiseki/VerilogHdl/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEIN_CTRL.v"/>
+        <Attr Name="ImportTime" Val="1356772978"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VideoProc/CAM_CTRL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../CQWorks/Papilio戦車/downloadarchiveold/Tsuiseki/VerilogHdl/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/CAM_CTRL.v"/>
+        <Attr Name="ImportTime" Val="1356775276"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/microblaze_mcs_v1_4_0/microblaze_mcs_v1_4_0.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VideoProc/VideoProcCore.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../CQWorks/Papilio戦車/downloadarchiveold/Tsuiseki/VerilogHdl/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProcCore.v"/>
+        <Attr Name="ImportTime" Val="1401589155"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VideoProc/VideoProc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../CQWorks/Papilio戦車/downloadarchiveold/Tsuiseki/VerilogHdl/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v"/>
+        <Attr Name="ImportTime" Val="1407743302"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="VideoProc"/>
+      <Option Name="TopLib" Val="work"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/imports/VideoProc/VideoProc.v"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+</DARoots>

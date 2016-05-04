@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Strategy Version="1" Minor="2">
+	<StratHandle Name="ISE Defaults" Flow="ISE14">
+		<Desc>ISE Defaults, including packing registers in IOs off</Desc>
+	</StratHandle>
+	<Step Id="ngdbuild">
+		<Option Id="MoreOptsStr"><![CDATA[-bm "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/microblaze_mcs_v1_4_0/microblaze_mcs_v1_4_0.bmm"]]></Option>
+	</Step>
+	<Step Id="map">
+		<Option Id="FFPackEnum">3</Option>
+	</Step>
+	<Step Id="par">
+	</Step>
+	<Step Id="trce">
+	</Step>
+	<Step Id="xdl">
+	</Step>
+	<Step Id="bitgen">
+		<Option Id="MoreOptsStr"><![CDATA[-bd "C:/Xilinx/myProjects/VideoProc/sdk/app00/Debug/app00.elf" tag microblaze_mcs_v1_4_0]]></Option>
+	</Step>
+</Strategy>
+

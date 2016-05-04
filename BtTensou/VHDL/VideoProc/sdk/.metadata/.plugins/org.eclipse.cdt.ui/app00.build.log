@@ -1,0 +1,50 @@
+15:35:40 **** Auto Build of configuration Debug for project app00 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../app00_bsp/microblaze_mcs_v1_4_0/include -mno-xl-reorder -mlittle-endian -mcpu=v8.40.a -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function '_wait':
+../src/helloworld.c:54:15: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+../src/helloworld.c: In function 'LineToUART':
+../src/helloworld.c:97:16: warning: unused variable 'st' [-Wunused-variable]
+../src/helloworld.c:95:38: warning: unused variable 'ack2' [-Wunused-variable]
+../src/helloworld.c:95:33: warning: unused variable 'ack' [-Wunused-variable]
+../src/helloworld.c:95:28: warning: unused variable 'ret' [-Wunused-variable]
+../src/helloworld.c:95:22: warning: unused variable 'ret2' [-Wunused-variable]
+../src/helloworld.c:95:16: warning: unused variable 'ret1' [-Wunused-variable]
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:274:21: warning: unused variable 'ack2' [-Wunused-variable]
+../src/helloworld.c:271:16: warning: unused variable 'verify' [-Wunused-variable]
+../src/helloworld.c:270:6: warning: unused variable 'MAXFRAME' [-Wunused-variable]
+../src/helloworld.c:269:6: warning: unused variable 'frame2Logic' [-Wunused-variable]
+../src/helloworld.c:268:12: warning: unused variable 'res' [-Wunused-variable]
+../src/helloworld.c:268:9: warning: unused variable 'k' [-Wunused-variable]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: app00.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app00_bsp/microblaze_mcs_v1_4_0/lib -mlittle-endian -mcpu=v8.40.a -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "app00.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: app00.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size app00.elf  |tee "app00.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7486	    276	   3564	  11326	   2c3e	app00.elf
+'Finished building: app00.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck app00.elf -hw ../../hw00/system.xml -pe microblaze_mcs_v1_4_0  |tee "app00.elf.elfcheck"
+elfcheck
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../hw00/system.xml -pe microblaze_mcs_v1_4_0
+app00.elf 
+
+ELF file	: app00.elf
+elfcheck passed.
+'Finished building: app00.elf.elfcheck'
+' '
+
+15:35:43 Build Finished (took 3s.136ms)
+

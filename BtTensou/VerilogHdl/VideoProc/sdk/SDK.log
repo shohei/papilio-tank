@@ -1,0 +1,9 @@
+14:48:01.059 INFO  - Project 'hw00' created. You can now create BSPs and application projects targeting this hardware platform. 
+15:11:49.347 INFO  - Project hw00's source hardware specification located at C:\Xilinx\myProjects\VideoProc\VideoProc.srcs\sources_1\ip\microblaze_mcs_v1_4_0\microblaze_mcs_v1_4_0_sdk.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:13:41.239 INFO  - Copied contents of C:\Xilinx\myProjects\VideoProc\VideoProc.srcs\sources_1\ip\microblaze_mcs_v1_4_0\microblaze_mcs_v1_4_0_sdk.xml into \hw00\system.xml. 
+15:13:41.239 INFO  - Copied contents of C:\Xilinx\myProjects\VideoProc\VideoProc.srcs\sources_1\ip\microblaze_mcs_v1_4_0\microblaze_mcs_v1_4_0.bmm into \hw00\system_bd.bmm. 
+15:13:41.317 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:14:20.627 INFO  - Updating hardware inferred compiler options for app00. 
+15:14:20.627 INFO  - Clearing existing target manager status. 
+15:18:24.449 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

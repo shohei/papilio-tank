@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="microblaze_mcs_v1_4_0">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./model_parameter_resolution_generator.xlog" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./microblaze_mcs_v1_4_0.xco" type="xco" timestamp="Sun Aug 17 06:08:12 GMT 2014" checksum="0x140AB185"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./associated_files_generator.xlog" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./microblaze_mcs_v1_4_0.ngc" type="ngc" timestamp="Sun Aug 17 06:11:32 GMT 2014" checksum="0x9F010B0E"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="misc_files_generator">
+        <File name="./microblaze_mcs_v1_4_0/mb_bootloop_le.elf" type="unknown" timestamp="Sun Aug 17 06:11:34 GMT 2014" checksum="0x627FA22B"></File>
+        <File name="./microblaze_mcs_v1_4_0/microblaze_mcs_setup.tcl" type="tcl" timestamp="Sun Aug 17 06:11:34 GMT 2014" checksum="0x3AB2D5FF"></File>
+        <File name="./microblaze_mcs_v1_4_0/system_template.tcl" type="tcl" timestamp="Sun Aug 17 06:11:34 GMT 2014" checksum="0x395FA739"></File>
+      </FileSet>
+      <FileSet generator="microblaze_mcs_tcl_gen_script_generator">
+        <File name="./mb_bootloop_le.elf" type="unknown" timestamp="Sun Aug 17 06:11:34 GMT 2014" checksum="0x627FA22B"></File>
+        <File name="./microblaze_mcs_setup.tcl" type="tcl" timestamp="Sun Aug 17 06:11:34 GMT 2014" checksum="0x3AB2D5FF"></File>
+        <File name="./microblaze_mcs_v1_4_0.bmm" type="unknown" timestamp="Sun Aug 17 06:11:34 GMT 2014" checksum="0xC8FF7F48"></File>
+        <File name="./microblaze_mcs_v1_4_0_sdk.xml" type="unknown" timestamp="Sun Aug 17 06:11:34 GMT 2014" checksum="0x267FE0EA"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./microblaze_mcs_v1_4_0.veo" type="veo" timestamp="Sun Aug 17 06:11:35 GMT 2014" checksum="0x6333C122"></File>
+      </FileSet>
+      <FileSet generator="rtl_simulation_model_generator">
+        <File name="./microblaze_mcs_v1_4_0.v" type="verilog" timestamp="Sun Aug 17 06:11:36 GMT 2014" checksum="0x987E5F4C"></File>
+      </FileSet>
+      <FileSet generator="synthesis_instantiation_wrapper_generator">
+        <File name="./synthesis_instantiation_wrapper_generator.xlog" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="microblaze_mcs_tcl_sim_script_generator">
+        <File name="./microblaze_mcs_v1_4_0.v" type="verilog" timestamp="Sun Aug 17 06:11:37 GMT 2014" checksum="0x3E7BB6FF"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./microblaze_mcs_v1_4_0.asy" type="ignore" timestamp="Sun Aug 17 06:11:37 GMT 2014" checksum="0x66B9FABE"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./microblaze_mcs_v1_4_0.gise" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0x6736CD82"></File>
+        <File name="./microblaze_mcs_v1_4_0.xise" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0x60B2BE4E"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./microblaze_mcs_v1_4_0_readme.txt" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0xF55C9AFA"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./microblaze_mcs_v1_4_0_flist.txt" type="ignore" timestamp="Sun Aug 17 06:11:44 GMT 2014" checksum="0xE8A0E99D"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

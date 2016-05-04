@@ -1,0 +1,36 @@
+14:55:25 **** Auto Build of configuration Debug for project app00 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../app00_bsp/microblaze_mcs_v1_4_0/include -mno-xl-reorder -mlittle-endian -mcpu=v8.40.a -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function '_wait':
+../src/helloworld.c:49:15: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: app00.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app00_bsp/microblaze_mcs_v1_4_0/lib -mlittle-endian -mcpu=v8.40.a -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "app00.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: app00.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size app00.elf  |tee "app00.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6294	    276	   2124	   8694	   21f6	app00.elf
+'Finished building: app00.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck app00.elf -hw ../../hw00/system.xml -pe microblaze_mcs_v1_4_0  |tee "app00.elf.elfcheck"
+elfcheck
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../hw00/system.xml -pe microblaze_mcs_v1_4_0
+app00.elf 
+
+ELF file	: app00.elf
+elfcheck passed.
+'Finished building: app00.elf.elfcheck'
+' '
+
+14:55:28 Build Finished (took 3s.136ms)
+

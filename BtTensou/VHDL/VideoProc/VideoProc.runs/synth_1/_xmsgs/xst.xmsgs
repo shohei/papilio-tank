@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.vhd" Line 112: <arg fmt="%s" index="1">camvsync_edge</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 63: Using initial value <arg fmt="%s" index="1">&quot;00000&quot;</arg> for <arg fmt="%s" index="2">initial</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 64: Using initial value <arg fmt="%s" index="1">&quot;00010&quot;</arg> for <arg fmt="%s" index="2">mrs</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 65: Using initial value <arg fmt="%s" index="1">&quot;00100&quot;</arg> for <arg fmt="%s" index="2">bstwr</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 66: Using initial value <arg fmt="%s" index="1">&quot;00101&quot;</arg> for <arg fmt="%s" index="2">bstrd</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 67: Using initial value <arg fmt="%s" index="1">&quot;00001&quot;</arg> for <arg fmt="%s" index="2">prechall</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 68: Using initial value <arg fmt="%s" index="1">&quot;10001&quot;</arg> for <arg fmt="%s" index="2">doingprechall</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 69: Using initial value <arg fmt="%s" index="1">&quot;10010&quot;</arg> for <arg fmt="%s" index="2">doingmrs</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 158: <arg fmt="%s" index="1">initial</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.vhd" Line 371: Assignment to <arg fmt="%s" index="1">dqm</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.v" Line 126: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.v" Line 127: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.v" Line 128: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.vhd" Line 142: Net &lt;<arg fmt="%s" index="1">led_sig[0]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.vhd</arg>&quot; line <arg fmt="%s" index="2">198</arg>: Output port &lt;<arg fmt="%s" index="3">GPI1_Interrupt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mcs_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.vhd</arg>&quot; line <arg fmt="%s" index="2">198</arg>: Output port &lt;<arg fmt="%s" index="3">GPI2_Interrupt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mcs_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.vhd</arg>&quot; line <arg fmt="%s" index="2">198</arg>: Output port &lt;<arg fmt="%s" index="3">GPI3_Interrupt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mcs_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.vhd</arg>&quot; line <arg fmt="%s" index="2">198</arg>: Output port &lt;<arg fmt="%s" index="3">GPI4_Interrupt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mcs_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.vhd</arg>&quot; line <arg fmt="%s" index="2">216</arg>: Output port &lt;<arg fmt="%s" index="3">SDRAM_CLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">VideoProcCore_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.vhd</arg>&quot; line <arg fmt="%s" index="2">261</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKED</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">your_instance_name</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">led_sig</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProcCore.vhd</arg>&quot; line <arg fmt="%s" index="2">229</arg>: Output port &lt;<arg fmt="%s" index="3">OddFrame</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">VGA_CTRL_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">VgaLineCount&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">VgaLineCount&lt;8:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CamLineCount</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">VgaLineCount&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">VgaLineCount&lt;8:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CLK100M</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">SdrwLineCount&lt;8:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PIXSTB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CamVsync</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">SDRAM_DQMH</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">SDRAM_DQML</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">coladdr_norm</arg>&lt;<arg fmt="%d" index="2">11</arg>:<arg fmt="%d" index="3">11</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">coladdr_norm</arg>&lt;<arg fmt="%d" index="2">10</arg>:<arg fmt="%d" index="3">9</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">SDRAM_CS_N</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">abs_y_sft</arg>&lt;<arg fmt="%d" index="2">11</arg>:<arg fmt="%d" index="3">7</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_RAMDATA</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_L_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_L_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_L_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_L_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_L_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_L_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_L_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_L_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_R_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_R_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_R_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_R_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_R_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_R_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_R_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">acc_y_latch_R_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">coladdr_norm_dummy_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SDRAM_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">coladdr_norm_dummy_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SDRAM_CTRL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_L_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_L_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_L_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_L_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_L_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_L_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_L_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_L_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_R_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_R_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_R_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_R_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_R_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_R_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_R_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">v_acc_y_latch_R_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM_CTRL</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">your_instance_name/pll_base_inst</arg> in unit <arg fmt="%s" index="2">your_instance_name/pll_base_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">VideoProcCore_1/LineOut_CTRL_1/SdrwLineCount_sig_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoProc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">VideoProcCore_1/VGA_CTRL_1/VgaFrameCount</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoProc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">VideoProcCore_1/LineOut_CTRL_1/WaitLine_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VideoProc</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VideoProcCore_1/LineOut_CTRL_1/oddline_dly1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VideoProc</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VideoProcCore_1/LineIn_CTRL_1/oddline_dly1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VideoProcCore_1/LineOut_CTRL_1/oddline_dly2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VideoProc</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VideoProcCore_1/LineIn_CTRL_1/oddline_dly2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/ilmb/POR_FF_I</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mcs_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/dlmb/POR_FF_I&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[31].fdr_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mcs_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">31 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[30].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[29].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[28].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[27].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[26].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[25].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[24].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[23].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[22].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[21].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[20].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[19].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[18].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[17].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[16].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[15].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[14].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[13].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[12].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[11].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[10].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[9].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[8].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[7].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[6].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[5].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[4].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[3].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[2].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[1].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[0].fdr_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/ilmb/POR_FF_I</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mcs_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/dlmb/POR_FF_I&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[31].fdr_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mcs_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">31 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[30].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[29].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[28].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[27].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[26].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[25].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[24].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[23].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[22].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[21].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[20].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[19].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[18].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[17].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[16].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[15].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[14].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[13].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[12].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[11].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[10].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[9].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[8].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[7].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[6].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[5].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[4].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[3].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[2].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[1].fdr_i&gt; &lt;U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[0].fdr_i&gt; </arg>
+</msg>
+
+</messages>
+

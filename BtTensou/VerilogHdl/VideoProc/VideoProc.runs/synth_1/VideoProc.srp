@@ -1,0 +1,1078 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: VideoProc.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VideoProc.prj"
+
+---- Target Parameters
+Target Device                      : xc6slx9tqg144-2
+Output File Name                   : "VideoProc.ngc"
+
+---- Source Options
+Top Module Name                    : VideoProc
+
+---- General Options
+Optimization Goal                  : speed
+Optimization Effort                : 1
+Netlist Hierarchy                  : rebuilt
+
+---- Other Options
+Cores Search Directories           : {c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/microblaze_mcs_v1_4_0}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SRAM.v" into library work
+Parsing module <SRAM>.
+Analyzing Verilog file "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" into library work
+Parsing module <VGA_CTRL>.
+Analyzing Verilog file "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" into library work
+Parsing module <SDRAM_CTRL>.
+Analyzing Verilog file "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v" into library work
+Parsing module <LINEOUT_CTRL>.
+Analyzing Verilog file "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEIN_CTRL.v" into library work
+Parsing module <LINEIN_CTRL>.
+Analyzing Verilog file "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/CAM_CTRL.v" into library work
+Parsing module <CAM_CTRL>.
+Analyzing Verilog file "c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/microblaze_mcs_v1_4_0/microblaze_mcs_v1_4_0.v" into library work
+Parsing module <microblaze_mcs_v1_4_0>.
+Analyzing Verilog file "c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.v" into library work
+Parsing module <clk_wiz_v3_6_0>.
+Analyzing Verilog file "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProcCore.v" into library work
+Parsing module <VideoProcCore>.
+Analyzing Verilog file "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v" into library work
+Parsing module <VideoProc>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <VideoProc>.
+
+Elaborating module <VideoProcCore>.
+
+Elaborating module <LINEIN_CTRL>.
+
+Elaborating module <SRAM>.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEIN_CTRL.v" Line 84: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEIN_CTRL.v" Line 88: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEIN_CTRL.v" Line 89: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <CAM_CTRL>.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/CAM_CTRL.v" Line 47: Result of 12-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/CAM_CTRL.v" Line 88: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/CAM_CTRL.v" Line 164: Result of 10-bit expression is truncated to fit in 9-bit target.
+
+Elaborating module <VGA_CTRL>.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 40: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 52: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 59: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 60: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 71: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 78: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 79: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 80: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 82: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v" Line 83: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProcCore.v" Line 144: Assignment to OddFrame ignored, since the identifier is never used
+
+Elaborating module <SDRAM_CTRL>.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" Line 320: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" Line 386: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" Line 399: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" Line 416: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" Line 422: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" Line 423: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" Line 424: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:1127 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v" Line 471: Assignment to dqm ignored, since the identifier is never used
+
+Elaborating module <LINEOUT_CTRL>.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v" Line 197: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v" Line 325: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v" Line 344: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v" Line 349: Result of 10-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v" Line 349: Assignment to PIXSTBCO ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v" Line 357: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v" Line 390: Result of 10-bit expression is truncated to fit in 9-bit target.
+
+Elaborating module <microblaze_mcs_v1_4_0>.
+
+Elaborating module <clk_wiz_v3_6_0>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=25,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=16,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DIVIDE=8,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT2_DIVIDE=8,CLKOUT2_PHASE=-45.0,CLKOUT2_DUTY_CYCLE=0.5,CLKIN_PERIOD=31.25,REF_JITTER=0.01)>.
+WARNING:HDLCompiler:1127 - "c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.v" Line 126: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.v" Line 127: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.v" Line 128: Assignment to clkout5_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <VideoProc>.
+    Related source file is "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v".
+INFO:Xst:3210 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v" line 104: Output port <SDRAM_CLK> of the instance <VideoProcCore_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v" line 172: Output port <GPI1_Interrupt> of the instance <mcs_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v" line 172: Output port <GPI2_Interrupt> of the instance <mcs_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v" line 172: Output port <GPI3_Interrupt> of the instance <mcs_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v" line 172: Output port <GPI4_Interrupt> of the instance <mcs_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProc.v" line 191: Output port <LOCKED> of the instance <your_instance_name> is unconnected or connected to loadless signal.
+    Found 1-bit tristate buffer for signal <SDA> created at line 149
+    Found 1-bit tristate buffer for signal <SCL> created at line 152
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<15>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<14>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<13>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<12>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<11>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<10>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<9>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<8>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<7>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<6>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<5>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<4>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<3>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<2>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<1>> created at line 204
+    Found 1-bit tristate buffer for signal <SDRAM_DQ<0>> created at line 204
+    Summary:
+	inferred   3 Multiplexer(s).
+	inferred  18 Tristate(s).
+Unit <VideoProc> synthesized.
+
+Synthesizing Unit <VideoProcCore>.
+    Related source file is "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProcCore.v".
+WARNING:Xst:647 - Input <SW0> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <SW1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VideoProcCore.v" line 133: Output port <OddFrame> of the instance <VGA_CTRL_inst> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <VideoProcCore> synthesized.
+
+Synthesizing Unit <LINEIN_CTRL>.
+    Related source file is "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEIN_CTRL.v".
+WARNING:Xst:647 - Input <VgaLineCount<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <VgaLineCount<8:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <oddline_dly1>.
+    Found 1-bit register for signal <oddline_dly2>.
+    Found 16-bit register for signal <buf_RGB>.
+    Found 10-bit register for signal <LB_RD_ADDR>.
+    Found 10-bit adder for signal <VgaPixCount[9]_GND_3_o_add_6_OUT> created at line 84.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <LINEIN_CTRL> synthesized.
+
+Synthesizing Unit <SRAM>.
+    Related source file is "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SRAM.v".
+WARNING:Xst:3015 - Contents of array <RAMDATA> may be accessed with an index that does not cover the full array size or with a negative index. The RAM size is reduced to the index upper access or for only positive index values.
+    Found 1024x16-bit dual-port RAM <Mram_RAMDATA> for signal <RAMDATA>.
+    Found 16-bit register for signal <RDDATA_sig>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <SRAM> synthesized.
+
+Synthesizing Unit <CAM_CTRL>.
+    Related source file is "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/CAM_CTRL.v".
+    Found 1-bit register for signal <Rg_dec_dly2>.
+    Found 1-bit register for signal <Rg_dec_dly1>.
+    Found 1-bit register for signal <CamHsync_dly2>.
+    Found 1-bit register for signal <CamHsync_dly1>.
+    Found 1-bit register for signal <CamVsync_dly2>.
+    Found 1-bit register for signal <CamVsync_dly1>.
+    Found 8-bit register for signal <Rg_latch>.
+    Found 8-bit register for signal <gB_latch>.
+    Found 16-bit register for signal <CamPixCount4x_sig>.
+    Found 10-bit register for signal <PclkPixCount_dly2>.
+    Found 10-bit register for signal <PclkPixCount_dly1>.
+    Found 9-bit register for signal <CamLineCount_sig>.
+    Found 11-bit register for signal <PclkPixCount>.
+    Found 11-bit adder for signal <PclkPixCount[10]_GND_5_o_add_2_OUT> created at line 47.
+    Found 16-bit adder for signal <CamPixCount4x_sig[15]_GND_5_o_add_15_OUT> created at line 88.
+    Found 9-bit adder for signal <CamLineCount_sig[8]_GND_5_o_add_36_OUT> created at line 164.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  78 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <CAM_CTRL> synthesized.
+
+Synthesizing Unit <VGA_CTRL>.
+    Related source file is "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/VGA_CTRL.v".
+    Found 1-bit register for signal <VgaVisible_sig>.
+    Found 1-bit register for signal <VgaHsync_tmp>.
+    Found 1-bit register for signal <VgaVsync_tmp>.
+    Found 1-bit register for signal <VgaPixCount_enb>.
+    Found 10-bit register for signal <VgaPixCount_sig>.
+    Found 9-bit register for signal <VgaLineCount_sig>.
+    Found 1-bit register for signal <VgaFrameCount>.
+    Found 10-bit adder for signal <VgaPixCount_sig[9]_GND_6_o_add_8_OUT> created at line 52.
+    Found 9-bit adder for signal <VgaLineCount_sig[8]_GND_6_o_add_23_OUT> created at line 71.
+    Found 10-bit comparator lessequal for signal <n0028> created at line 78
+    Found 10-bit comparator greater for signal <VgaPixCount_sig[9]_PWR_6_o_LessThan_30_o> created at line 78
+    Found 10-bit comparator lessequal for signal <n0033> created at line 79
+    Found 9-bit comparator lessequal for signal <n0038> created at line 82
+    Found 9-bit comparator greater for signal <VgaLineCount_sig[8]_PWR_6_o_LessThan_37_o> created at line 82
+    Found 9-bit comparator lessequal for signal <n0043> created at line 83
+    Found 9-bit comparator lessequal for signal <n0045> created at line 83
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   7 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <VGA_CTRL> synthesized.
+
+Synthesizing Unit <SDRAM_CTRL>.
+    Related source file is "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/SDRAM_CTRL.v".
+WARNING:Xst:647 - Input <SdrwLineCount<8:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PIXSTB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <CamVsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Register <coladdr_norm> equivalent to <SDRAM_CKE> has been removed
+    Found 1-bit register for signal <buf_RGB_win_dly2>.
+    Found 1-bit register for signal <buf_RGB_win_dly1>.
+    Found 1-bit register for signal <rasn_norm>.
+    Found 1-bit register for signal <rasn_diff>.
+    Found 1-bit register for signal <casn_norm>.
+    Found 1-bit register for signal <casn_diff>.
+    Found 1-bit register for signal <SDRAM_WE_N>.
+    Found 1-bit register for signal <SDRAM_RAS_N>.
+    Found 1-bit register for signal <SDRAM_CAS_N>.
+    Found 1-bit register for signal <SDRAM_CKE>.
+    Found 1-bit register for signal <SDRAM_DQENB_N>.
+    Found 1-bit register for signal <winp0>.
+    Found 1-bit register for signal <winp1>.
+    Found 1-bit register for signal <winp2>.
+    Found 1-bit register for signal <winp3>.
+    Found 1-bit register for signal <dec18>.
+    Found 1-bit register for signal <dec17>.
+    Found 1-bit register for signal <dec16>.
+    Found 1-bit register for signal <dec15>.
+    Found 1-bit register for signal <MDET_L>.
+    Found 1-bit register for signal <MDET_R>.
+    Found 8-bit register for signal <coladdr_norm_dummy>.
+    Found 16-bit register for signal <buf_RGB_dly3>.
+    Found 16-bit register for signal <buf_RGB_dly2>.
+    Found 16-bit register for signal <buf_RGB_dly1>.
+    Found 16-bit register for signal <sdram_data3>.
+    Found 16-bit register for signal <sdram_data2>.
+    Found 16-bit register for signal <sdram_data1>.
+    Found 16-bit register for signal <sdram_data0>.
+    Found 16-bit register for signal <pwrupcount>.
+    Found 16-bit register for signal <SDRAM_DQO>.
+    Found 16-bit register for signal <latchp0>.
+    Found 16-bit register for signal <latchp1>.
+    Found 16-bit register for signal <latchp2>.
+    Found 16-bit register for signal <latchp3>.
+    Found 16-bit register for signal <latchd0>.
+    Found 16-bit register for signal <latchd1>.
+    Found 16-bit register for signal <latchd2>.
+    Found 16-bit register for signal <latchd3>.
+    Found 16-bit register for signal <abs3>.
+    Found 16-bit register for signal <abs2>.
+    Found 16-bit register for signal <abs1>.
+    Found 16-bit register for signal <abs0>.
+    Found 16-bit register for signal <sdram_data_sdrd>.
+    Found 5-bit register for signal <count100m>.
+    Found 5-bit register for signal <MemState>.
+    Found 3-bit register for signal <FrameCount>.
+    Found 12-bit register for signal <rowaddr_norm>.
+    Found 12-bit register for signal <SDRAM_A>.
+    Found 12-bit register for signal <abs_y_sft>.
+    Found 12-bit register for signal <acc_y_L>.
+    Found 12-bit register for signal <acc_y_latch_L>.
+    Found 12-bit register for signal <v_acc_y_L>.
+    Found 12-bit register for signal <v_acc_y_latch_L>.
+    Found 12-bit register for signal <acc_y_R>.
+    Found 12-bit register for signal <acc_y_latch_R>.
+    Found 12-bit register for signal <v_acc_y_R>.
+    Found 12-bit register for signal <v_acc_y_latch_R>.
+    Found 2-bit register for signal <baddr_norm>.
+    Found 2-bit register for signal <SDRAM_BA>.
+    Found 4-bit register for signal <cmdcount>.
+    Found finite state machine <FSM_0> for signal <MemState>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 6                                              |
+    | Clock              | CLK (rising_edge)                              |
+    | Reset              | RST_N (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00000                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit subtractor for signal <n0483[3:0]> created at line 423.
+    Found 6-bit subtractor for signal <diffR0> created at line 696.
+    Found 6-bit subtractor for signal <diffR1> created at line 697.
+    Found 6-bit subtractor for signal <diffR2> created at line 698.
+    Found 6-bit subtractor for signal <diffR3> created at line 699.
+    Found 7-bit subtractor for signal <diffG0> created at line 706.
+    Found 7-bit subtractor for signal <diffG1> created at line 707.
+    Found 7-bit subtractor for signal <diffG2> created at line 708.
+    Found 7-bit subtractor for signal <diffG3> created at line 709.
+    Found 6-bit subtractor for signal <diffB0> created at line 716.
+    Found 6-bit subtractor for signal <diffB1> created at line 717.
+    Found 6-bit subtractor for signal <diffB2> created at line 718.
+    Found 6-bit subtractor for signal <diffB3> created at line 719.
+    Found 4-bit adder for signal <cmdcount[3]_GND_7_o_add_35_OUT> created at line 320.
+    Found 5-bit adder for signal <count100m[4]_GND_7_o_add_63_OUT> created at line 386.
+    Found 16-bit adder for signal <pwrupcount[15]_GND_7_o_add_68_OUT> created at line 399.
+    Found 3-bit adder for signal <frame2read_m7> created at line 416.
+    Found 12-bit adder for signal <add_y_L> created at line 772.
+    Found 12-bit adder for signal <v_add_y_L> created at line 808.
+    Found 12-bit adder for signal <add_y_R> created at line 856.
+    Found 12-bit adder for signal <v_add_y_R> created at line 892.
+    Found 12-bit adder for signal <_n0902> created at line 756.
+    Found 12-bit adder for signal <_n0903> created at line 756.
+    Found 12-bit adder for signal <abs_y> created at line 756.
+    Found 16-bit 7-to-1 multiplexer for signal <_n0905> created at line 153.
+    Found 16-bit comparator greater for signal <oddLine2x_GND_7_o_equal_146_o> created at line 406
+    Found 5-bit comparator lessequal for signal <n0080> created at line 425
+    Found 5-bit comparator lessequal for signal <n0082> created at line 425
+    Found 5-bit comparator lessequal for signal <n0135> created at line 473
+    Found 5-bit comparator lessequal for signal <n0138> created at line 473
+    Found 10-bit comparator greater for signal <VgaPixCount[9]_GND_7_o_LessThan_311_o> created at line 779
+    Found 9-bit comparator greater for signal <VgaLineCount[8]_GND_7_o_LessThan_318_o> created at line 795
+    Found 9-bit comparator greater for signal <VgaLineCount[8]_PWR_7_o_LessThan_327_o> created at line 818
+    Found 12-bit comparator lessequal for signal <n0393> created at line 843
+    Found 10-bit comparator greater for signal <VgaPixCount[9]_GND_7_o_LessThan_342_o> created at line 863
+    Found 12-bit comparator lessequal for signal <n0415> created at line 927
+    WARNING:Xst:2404 -  FFs/Latches <SDRAM_DQMH<0:0>> (without init value) have a constant value of 0 in block <SDRAM_CTRL>.
+    WARNING:Xst:2404 -  FFs/Latches <SDRAM_DQML<0:0>> (without init value) have a constant value of 0 in block <SDRAM_CTRL>.
+    WARNING:Xst:2404 -  FFs/Latches <coladdr_norm<11:11>> (without init value) have a constant value of 0 in block <SDRAM_CTRL>.
+    WARNING:Xst:2404 -  FFs/Latches <coladdr_norm<10:9>> (without init value) have a constant value of 0 in block <SDRAM_CTRL>.
+    WARNING:Xst:2404 -  FFs/Latches <SDRAM_CS_N<0:0>> (without init value) have a constant value of 0 in block <SDRAM_CTRL>.
+    Summary:
+	inferred  24 Adder/Subtractor(s).
+	inferred 529 D-type flip-flop(s).
+	inferred  11 Comparator(s).
+	inferred  56 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <SDRAM_CTRL> synthesized.
+
+Synthesizing Unit <LINEOUT_CTRL>.
+    Related source file is "C:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/imports/VideoProc/LINEOUT_CTRL.v".
+WARNING:Xst:647 - Input <CamLineCount> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <VgaLineCount<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <VgaLineCount<8:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <CLK100M> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <oddline_dly1>.
+    Found 1-bit register for signal <OB_WR_N_A>.
+    Found 1-bit register for signal <OB_WR_N_B>.
+    Found 1-bit register for signal <PIXRD_dly2>.
+    Found 1-bit register for signal <PIXRD_dly1>.
+    Found 1-bit register for signal <PIXWR_dly2>.
+    Found 1-bit register for signal <PIXWR_dly1>.
+    Found 1-bit register for signal <PIXSTB_dly2>.
+    Found 1-bit register for signal <PIXSTB_dly1>.
+    Found 1-bit register for signal <oddline_dly2>.
+    Found 16-bit register for signal <vga_RGB>.
+    Found 16-bit register for signal <OB_WR_DATA>.
+    Found 16-bit register for signal <vga_RGB_latch0>.
+    Found 16-bit register for signal <vga_RGB_latch1>.
+    Found 16-bit register for signal <vga_RGB_latch2>.
+    Found 16-bit register for signal <vga_RGB_latch3>.
+    Found 10-bit register for signal <LB_ADDR>.
+    Found 10-bit register for signal <OB_RD_ADDR>.
+    Found 10-bit register for signal <OB_WR_ADDR>.
+    Found 10-bit register for signal <pixstb_count>.
+    Found 10-bit register for signal <pixstb_count_plus>.
+    Found 3-bit register for signal <WaitLine>.
+    Found 4-bit register for signal <ViewMode_dly2>.
+    Found 4-bit register for signal <ViewMode_dly1>.
+    Found 9-bit register for signal <SdrwLineCount_sig>.
+    Found 10-bit adder for signal <VgaPixCount[9]_GND_8_o_add_40_OUT> created at line 197.
+    Found 3-bit adder for signal <WaitLine[2]_GND_8_o_add_84_OUT> created at line 325.
+    Found 10-bit adder for signal <pixstb_count[9]_GND_8_o_add_97_OUT> created at line 344.
+    Found 10-bit adder for signal <pixstb_count[9]_GND_8_o_add_102_OUT> created at line 357.
+    Found 9-bit adder for signal <SdrwLineCount_sig[8]_GND_8_o_add_119_OUT> created at line 390.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred 176 D-type flip-flop(s).
+	inferred  12 Multiplexer(s).
+Unit <LINEOUT_CTRL> synthesized.
+
+Synthesizing Unit <clk_wiz_v3_6_0>.
+    Related source file is "c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.v".
+    Summary:
+	no macro.
+Unit <clk_wiz_v3_6_0> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 1024x16-bit dual-port RAM                             : 4
+# Adders/Subtractors                                   : 35
+ 10-bit adder                                          : 5
+ 11-bit adder                                          : 1
+ 12-bit adder                                          : 7
+ 16-bit adder                                          : 2
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
+ 6-bit subtractor                                      : 8
+ 7-bit subtractor                                      : 4
+ 9-bit adder                                           : 3
+# Registers                                            : 113
+ 1-bit register                                        : 44
+ 10-bit register                                       : 9
+ 11-bit register                                       : 1
+ 12-bit register                                       : 11
+ 16-bit register                                       : 34
+ 2-bit register                                        : 2
+ 3-bit register                                        : 2
+ 4-bit register                                        : 3
+ 5-bit register                                        : 1
+ 8-bit register                                        : 3
+ 9-bit register                                        : 3
+# Comparators                                          : 18
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 2
+ 12-bit comparator lessequal                           : 2
+ 16-bit comparator greater                             : 1
+ 5-bit comparator lessequal                            : 4
+ 9-bit comparator greater                              : 3
+ 9-bit comparator lessequal                            : 3
+# Multiplexers                                         : 81
+ 1-bit 2-to-1 multiplexer                              : 13
+ 10-bit 2-to-1 multiplexer                             : 4
+ 12-bit 2-to-1 multiplexer                             : 11
+ 16-bit 2-to-1 multiplexer                             : 17
+ 16-bit 7-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 3
+ 3-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 3
+ 5-bit 2-to-1 multiplexer                              : 9
+ 6-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 6
+ 9-bit 2-to-1 multiplexer                              : 6
+# Tristates                                            : 18
+ 1-bit tristate buffer                                 : 18
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <c:/Xilinx/myProjects/VideoProc/VideoProc.srcs/sources_1/ip/microblaze_mcs_v1_4_0/microblaze_mcs_v1_4_0.ngc>.
+Loading core <microblaze_mcs_v1_4_0> for timing and area information for instance <mcs_0>.
+WARNING:Xst:2404 -  FFs/Latches <abs_y_sft<11:7>> (without init value) have a constant value of 0 in block <SDRAM_CTRL>.
+
+Synthesizing (advanced) Unit <CAM_CTRL>.
+The following registers are absorbed into counter <CamPixCount4x_sig>: 1 register on signal <CamPixCount4x_sig>.
+The following registers are absorbed into counter <CamLineCount_sig>: 1 register on signal <CamLineCount_sig>.
+The following registers are absorbed into counter <PclkPixCount>: 1 register on signal <PclkPixCount>.
+Unit <CAM_CTRL> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LINEOUT_CTRL>.
+The following registers are absorbed into counter <pixstb_count>: 1 register on signal <pixstb_count>.
+The following registers are absorbed into counter <SdrwLineCount_sig>: 1 register on signal <SdrwLineCount_sig>.
+The following registers are absorbed into counter <WaitLine>: 1 register on signal <WaitLine>.
+Unit <LINEOUT_CTRL> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SDRAM_CTRL>.
+The following registers are absorbed into accumulator <v_acc_y_L>: 1 register on signal <v_acc_y_L>.
+The following registers are absorbed into accumulator <v_acc_y_R>: 1 register on signal <v_acc_y_R>.
+The following registers are absorbed into accumulator <acc_y_R>: 1 register on signal <acc_y_R>.
+The following registers are absorbed into accumulator <acc_y_L>: 1 register on signal <acc_y_L>.
+The following registers are absorbed into counter <pwrupcount>: 1 register on signal <pwrupcount>.
+The following registers are absorbed into counter <FrameCount>: 1 register on signal <FrameCount>.
+The following registers are absorbed into counter <cmdcount>: 1 register on signal <cmdcount>.
+The following registers are absorbed into counter <count100m>: 1 register on signal <count100m>.
+Unit <SDRAM_CTRL> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SRAM>.
+INFO:Xst:3226 - The RAM <Mram_RAMDATA> will be implemented as a BLOCK RAM, absorbing the following register(s): <RDDATA_sig>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 1024-word x 16-bit                  |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <WRADDR>        |          |
+    |     diA            | connected to signal <WRDATA>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 1024-word x 16-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <CLK>           | rise     |
+    |     enB            | connected to internal node          | high     |
+    |     addrB          | connected to signal <RDADDR>        |          |
+    |     doB            | connected to signal <RDDATA_sig>    |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <SRAM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <VGA_CTRL>.
+The following registers are absorbed into counter <VgaPixCount_sig>: 1 register on signal <VgaPixCount_sig>.
+The following registers are absorbed into counter <VgaLineCount_sig>: 1 register on signal <VgaLineCount_sig>.
+Unit <VGA_CTRL> synthesized (advanced).
+WARNING:Xst:2677 - Node <acc_y_latch_L_0> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_L_1> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_L_2> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_L_3> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_L_4> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_L_5> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_L_6> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_L_7> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_R_0> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_R_1> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_R_2> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_R_3> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_R_4> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_R_5> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_R_6> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <acc_y_latch_R_7> of sequential type is unconnected in block <SDRAM_CTRL>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 1024x16-bit dual-port block RAM                       : 4
+# Adders/Subtractors                                   : 20
+ 10-bit adder                                          : 3
+ 12-bit adder                                          : 3
+ 3-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+ 6-bit subtractor                                      : 8
+ 7-bit subtractor                                      : 4
+# Counters                                             : 12
+ 10-bit up counter                                     : 2
+ 11-bit up counter                                     : 1
+ 16-bit up counter                                     : 2
+ 3-bit up counter                                      : 2
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 9-bit up counter                                      : 3
+# Accumulators                                         : 4
+ 12-bit up loadable accumulator                        : 4
+# Registers                                            : 661
+ Flip-Flops                                            : 661
+# Comparators                                          : 18
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 2
+ 12-bit comparator lessequal                           : 2
+ 16-bit comparator greater                             : 1
+ 5-bit comparator lessequal                            : 4
+ 9-bit comparator greater                              : 3
+ 9-bit comparator lessequal                            : 3
+# Multiplexers                                         : 147
+ 1-bit 2-to-1 multiplexer                              : 97
+ 12-bit 2-to-1 multiplexer                             : 7
+ 16-bit 2-to-1 multiplexer                             : 12
+ 16-bit 7-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 3
+ 3-bit 2-to-1 multiplexer                              : 3
+ 32-bit 2-to-1 multiplexer                             : 3
+ 5-bit 2-to-1 multiplexer                              : 8
+ 6-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 6
+ 9-bit 2-to-1 multiplexer                              : 3
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <coladdr_norm_dummy_0> (without init value) has a constant value of 0 in block <SDRAM_CTRL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <coladdr_norm_dummy_1> (without init value) has a constant value of 0 in block <SDRAM_CTRL>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <VideoProcCore_inst/SDRAM_CTRL_inst/FSM_0> on signal <MemState[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00000 | 000
+ 00001 | 001
+ 10001 | 011
+ 00010 | 010
+ 10010 | 110
+ 00100 | 111
+ 00101 | 101
+-------------------
+WARNING:Xst:2677 - Node <v_acc_y_latch_L_0> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_L_1> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_L_2> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_L_3> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_L_4> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_L_5> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_L_6> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_L_7> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_R_0> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_R_1> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_R_2> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_R_3> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_R_4> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_R_5> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_R_6> of sequential type is unconnected in block <SDRAM_CTRL>.
+WARNING:Xst:2677 - Node <v_acc_y_latch_R_7> of sequential type is unconnected in block <SDRAM_CTRL>.
+INFO:Xst:1901 - Instance your_instance_name/pll_base_inst in unit your_instance_name/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+
+Optimizing unit <VideoProc> ...
+
+Optimizing unit <VideoProcCore> ...
+
+Optimizing unit <LINEOUT_CTRL> ...
+
+Optimizing unit <SDRAM_CTRL> ...
+
+Optimizing unit <CAM_CTRL> ...
+
+Optimizing unit <LINEIN_CTRL> ...
+
+Optimizing unit <VGA_CTRL> ...
+WARNING:Xst:2677 - Node <VideoProcCore_inst/LINEOUT_CTRL_inst/SdrwLineCount_sig_8> of sequential type is unconnected in block <VideoProc>.
+WARNING:Xst:2677 - Node <VideoProcCore_inst/VGA_CTRL_inst/VgaFrameCount> of sequential type is unconnected in block <VideoProc>.
+WARNING:Xst:1710 - FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/WaitLine_2> (without init value) has a constant value of 0 in block <VideoProc>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/LB_ADDR_0> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/LB_RD_ADDR_0> 
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/LB_ADDR_1> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/LB_RD_ADDR_1> 
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/oddline_dly1> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/oddline_dly1> 
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/LB_ADDR_2> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/LB_RD_ADDR_2> 
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/LB_ADDR_3> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/LB_RD_ADDR_3> 
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/LB_ADDR_4> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/LB_RD_ADDR_4> 
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/LB_ADDR_5> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/LB_RD_ADDR_5> 
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/oddline_dly2> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/oddline_dly2> 
+Found area constraint ratio of 100 (+ 0) on block VideoProc, actual ratio is 31.
+INFO:Xst:2260 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/LB_ADDR_6> in Unit <VideoProc> is equivalent to the following FF/Latch : <VideoProcCore_inst/LINEIN_CTRL_inst/LB_RD_ADDR_6> 
+INFO:Xst:2260 - The FF/Latch <U0/ilmb/POR_FF_I> in Unit <mcs_0> is equivalent to the following FF/Latch : <U0/dlmb/POR_FF_I> 
+INFO:Xst:2260 - The FF/Latch <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[31].fdr_i> in Unit <mcs_0> is equivalent to the following 31 FFs/Latches : <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[30].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[29].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[28].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[27].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[26].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[25].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[24].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[23].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[22].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[21].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[20].fdr_i>
+   <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[19].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[18].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[17].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[16].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[15].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[14].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[13].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[12].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[11].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[10].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[9].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[8].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[7].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[6].fdr_i>
+   <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[5].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[4].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[3].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[2].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[1].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[0].fdr_i> 
+INFO:Xst:2261 - The FF/Latch <VideoProcCore_inst/LINEOUT_CTRL_inst/LB_ADDR_6> in Unit <VideoProc> is equivalent to the following FF/Latch, which will be removed : <VideoProcCore_inst/LINEIN_CTRL_inst/LB_RD_ADDR_6> 
+INFO:Xst:2260 - The FF/Latch <U0/ilmb/POR_FF_I> in Unit <mcs_0> is equivalent to the following FF/Latch : <U0/dlmb/POR_FF_I> 
+INFO:Xst:2260 - The FF/Latch <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[31].fdr_i> in Unit <mcs_0> is equivalent to the following 31 FFs/Latches : <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[30].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[29].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[28].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[27].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[26].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[25].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[24].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[23].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[22].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[21].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[20].fdr_i>
+   <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[19].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[18].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[17].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[16].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[15].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[14].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[13].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[12].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[11].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[10].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[9].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[8].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[7].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[6].fdr_i>
+   <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[5].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[4].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[3].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[2].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[1].fdr_i> <U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cipr_rd_dff_all[0].fdr_i> 
+FlipFlop VideoProcCore_inst/SDRAM_CTRL_inst/SDRAM_CKE has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 788
+ Flip-Flops                                            : 788
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : VideoProc.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1891
+#      GND                         : 11
+#      INV                         : 30
+#      LUT1                        : 61
+#      LUT2                        : 172
+#      LUT3                        : 189
+#      LUT4                        : 280
+#      LUT5                        : 153
+#      LUT6                        : 372
+#      LUT6_2                      : 90
+#      MULT_AND                    : 3
+#      MUXCY                       : 158
+#      MUXCY_L                     : 74
+#      MUXF5                       : 66
+#      MUXF6                       : 1
+#      MUXF7                       : 2
+#      VCC                         : 8
+#      XORCY                       : 221
+# FlipFlops/Latches                : 1226
+#      FD                          : 96
+#      FDC                         : 259
+#      FDCE                        : 529
+#      FDE                         : 80
+#      FDR                         : 86
+#      FDRE                        : 151
+#      FDS                         : 9
+#      FDSE                        : 16
+# RAMS                             : 76
+#      RAM32X1D                    : 64
+#      RAMB16BWER                  : 12
+# Shift Registers                  : 49
+#      SRL16E                      : 49
+# Clock Buffers                    : 5
+#      BUFG                        : 4
+#      BUFGP                       : 1
+# IO Buffers                       : 90
+#      IBUF                        : 15
+#      IBUFG                       : 1
+#      IOBUF                       : 18
+#      OBUF                        : 56
+# Others                           : 1
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1225  out of  11440    10%  
+ Number of Slice LUTs:                 1524  out of   5720    26%  
+    Number used as Logic:              1347  out of   5720    23%  
+    Number used as Memory:              177  out of   1440    12%  
+       Number used as RAM:              128
+       Number used as SRL:               49
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2148
+   Number with an unused Flip Flop:     923  out of   2148    42%  
+   Number with an unused LUT:           624  out of   2148    29%  
+   Number of fully used LUT-FF pairs:   601  out of   2148    27%  
+   Number of unique control sets:        79
+
+IO Utilization: 
+ Number of IOs:                          91
+ Number of bonded IOBs:                  90  out of    102    88%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               12  out of     32    37%  
+    Number using Block RAM only:         12
+ Number of BUFG/BUFGCTRLs:                5  out of     16    31%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------+------------------------+-------+
+Clock Signal                            | Clock buffer(FF name)  | Load  |
+----------------------------------------+------------------------+-------+
+your_instance_name/pll_base_inst/CLKOUT0| BUFG                   | 990   |
+your_instance_name/pll_base_inst/CLKOUT1| BUFG                   | 314   |
+PCLK                                    | BUFGP                  | 47    |
+----------------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 7.968ns (Maximum Frequency: 125.508MHz)
+   Minimum input arrival time before clock: 5.339ns
+   Maximum output required time after clock: 5.763ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'your_instance_name/pll_base_inst/CLKOUT0'
+  Clock period: 7.968ns (frequency: 125.508MHz)
+  Total number of paths / destination ports: 97405 / 3005
+-------------------------------------------------------------------------
+Delay:               7.968ns (Levels of Logic = 4)
+  Source:            mcs_0/U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/PreFetch_Buffer_I/Using_FPGA.Buffer_DFFs[1].FDS_I (FF)
+  Destination:       mcs_0/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Operand_Select_I/Using_FPGA.OpSelect_Bits[15].Operand_Select_Bit_I/Op2_DFF (FF)
+  Source Clock:      your_instance_name/pll_base_inst/CLKOUT0 rising
+  Destination Clock: your_instance_name/pll_base_inst/CLKOUT0 rising
+
+  Data Path: mcs_0/U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/PreFetch_Buffer_I/Using_FPGA.Buffer_DFFs[1].FDS_I to mcs_0/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Operand_Select_I/Using_FPGA.OpSelect_Bits[15].Operand_Select_Bit_I/Op2_DFF
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             47   0.525   1.770  U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/PreFetch_Buffer_I/Using_FPGA.Buffer_DFFs[1].FDS_I (U0/microblaze_I/MicroBlaze_Core_I/Area.buffer_Addr<1>)
+     SRL16E:A2->Q         51   0.254   2.105  U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/PreFetch_Buffer_I/Using_FPGA.PreFetch_Buffers[16].SRL16E_I/Use_unisim.MB_SRL16E_I1 (U0/microblaze_I/MicroBlaze_Core_I/Area.imm_Value<0>)
+     LUT4:I0->O            1   0.254   0.958  U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/Using_FPGA.Res_Forward2_LUT1 (U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/Using_FPGA.res_forward2_1)
+     LUT4:I0->O           32   0.254   1.520  U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/Using_FPGA.Res_Forward2_LUT4 (U0/microblaze_I/MicroBlaze_Core_I/Area.res_Forward2)
+     LUT6:I5->O            1   0.254   0.000  U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Operand_Select_I/Using_FPGA.OpSelect_Bits[23].Operand_Select_Bit_I/Mmux_op2_I11 (U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Operand_Select_I/Using_FPGA.OpSelect_Bits[23].Operand_Select_Bit_I/op2_I)
+     FDE:D                     0.074          U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Operand_Select_I/Using_FPGA.OpSelect_Bits[23].Operand_Select_Bit_I/Op2_DFF
+    ----------------------------------------
+    Total                      7.968ns (1.615ns logic, 6.353ns route)
+                                       (20.3% logic, 79.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'your_instance_name/pll_base_inst/CLKOUT1'
+  Clock period: 7.120ns (frequency: 140.445MHz)
+  Total number of paths / destination ports: 11697 / 388
+-------------------------------------------------------------------------
+Delay:               7.120ns (Levels of Logic = 7)
+  Source:            VideoProcCore_inst/SDRAM_CTRL_inst/latchd3_12 (FF)
+  Destination:       VideoProcCore_inst/SDRAM_CTRL_inst/abs_y_sft_6 (FF)
+  Source Clock:      your_instance_name/pll_base_inst/CLKOUT1 rising
+  Destination Clock: your_instance_name/pll_base_inst/CLKOUT1 rising
+
+  Data Path: VideoProcCore_inst/SDRAM_CTRL_inst/latchd3_12 to VideoProcCore_inst/SDRAM_CTRL_inst/abs_y_sft_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             4   0.525   1.234  latchd3_12 (latchd3_12)
+     LUT6:I1->O            8   0.254   0.944  Msub_diffR3_cy<2>11 (Msub_diffR3_cy<2>)
+     LUT5:I4->O            2   0.254   0.834  Msub_diffR3_cy<4>11 (Msub_diffR3_cy<4>)
+     LUT6:I4->O            6   0.250   0.984  Madd__n0903_lut<0>71 (Madd__n0903_lut<0>7)
+     LUT6:I4->O            1   0.250   0.790  Madd__n0903_cy<0>81_SW2 (N92)
+     LUT6:I4->O            1   0.250   0.000  Madd__n0903_xor<0>101 (_n0903<9>)
+     MUXCY:S->O            1   0.215   0.000  Madd_abs_y_cy<9> (Madd_abs_y_cy<9>)
+     MUXCY:CI->O           1   0.262   0.000  Madd_abs_y_cy<10> (Madd_abs_y_cy<10>)
+     FDCE:D                    0.074          abs_y_sft_6
+    ----------------------------------------
+    Total                      7.120ns (2.334ns logic, 4.786ns route)
+                                       (32.8% logic, 67.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'PCLK'
+  Clock period: 3.064ns (frequency: 326.371MHz)
+  Total number of paths / destination ports: 102 / 47
+-------------------------------------------------------------------------
+Delay:               3.064ns (Levels of Logic = 1)
+  Source:            VideoProcCore_inst/CAM_CTRL_inst/PclkPixCount_0 (FF)
+  Destination:       VideoProcCore_inst/CAM_CTRL_inst/Rg_latch_7 (FF)
+  Source Clock:      PCLK rising
+  Destination Clock: PCLK rising
+
+  Data Path: VideoProcCore_inst/CAM_CTRL_inst/PclkPixCount_0 to VideoProcCore_inst/CAM_CTRL_inst/Rg_latch_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.525   1.007  PclkPixCount_0 (PclkPixCount_0)
+     INV:I->O              9   0.255   0.975  Mcount_PclkPixCount_lut<0>_INV_0 (Mcount_PclkPixCount_lut<0>)
+     FDCE:CE                   0.302          Rg_latch_0
+    ----------------------------------------
+    Total                      3.064ns (1.082ns logic, 1.982ns route)
+                                       (35.3% logic, 64.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'your_instance_name/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 436 / 436
+-------------------------------------------------------------------------
+Offset:              5.339ns (Levels of Logic = 3)
+  Source:            RST_N (PAD)
+  Destination:       VideoProcCore_inst/SDRAM_CTRL_inst/v_acc_y_L_11 (FF)
+  Destination Clock: your_instance_name/pll_base_inst/CLKOUT0 rising
+
+  Data Path: RST_N to VideoProcCore_inst/SDRAM_CTRL_inst/v_acc_y_L_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.328   0.765  RST_N_IBUF (RST_N_IBUF)
+     INV:I->O            774   0.255   2.532  RST1_INV_0 (RST)
+     begin scope: 'VideoProcCore_inst:RST'
+     begin scope: 'VideoProcCore_inst/SDRAM_CTRL_inst:RST'
+     FDCE:CLR                  0.459          buf_RGB_dly1_0
+    ----------------------------------------
+    Total                      5.339ns (2.042ns logic, 3.297ns route)
+                                       (38.2% logic, 61.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'your_instance_name/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 442 / 442
+-------------------------------------------------------------------------
+Offset:              5.339ns (Levels of Logic = 3)
+  Source:            RST_N (PAD)
+  Destination:       VideoProcCore_inst/SDRAM_CTRL_inst/acc_y_L_11 (FF)
+  Destination Clock: your_instance_name/pll_base_inst/CLKOUT1 rising
+
+  Data Path: RST_N to VideoProcCore_inst/SDRAM_CTRL_inst/acc_y_L_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.328   0.765  RST_N_IBUF (RST_N_IBUF)
+     INV:I->O            774   0.255   2.532  RST1_INV_0 (RST)
+     begin scope: 'VideoProcCore_inst:RST'
+     begin scope: 'VideoProcCore_inst/SDRAM_CTRL_inst:RST'
+     FDC:CLR                   0.459          rasn_norm
+    ----------------------------------------
+    Total                      5.339ns (2.042ns logic, 3.297ns route)
+                                       (38.2% logic, 61.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'PCLK'
+  Total number of paths / destination ports: 63 / 63
+-------------------------------------------------------------------------
+Offset:              5.339ns (Levels of Logic = 3)
+  Source:            RST_N (PAD)
+  Destination:       VideoProcCore_inst/CAM_CTRL_inst/PclkPixCount_dly2_9 (FF)
+  Destination Clock: PCLK rising
+
+  Data Path: RST_N to VideoProcCore_inst/CAM_CTRL_inst/PclkPixCount_dly2_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.328   0.765  RST_N_IBUF (RST_N_IBUF)
+     INV:I->O            774   0.255   2.532  RST1_INV_0 (RST)
+     begin scope: 'VideoProcCore_inst:RST'
+     begin scope: 'VideoProcCore_inst/CAM_CTRL_inst:RST'
+     FDCE:CLR                  0.459          Rg_latch_0
+    ----------------------------------------
+    Total                      5.339ns (2.042ns logic, 3.297ns route)
+                                       (38.2% logic, 61.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'your_instance_name/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 50 / 34
+-------------------------------------------------------------------------
+Offset:              4.618ns (Levels of Logic = 2)
+  Source:            VideoProcCore_inst/SDRAM_CTRL_inst/SDRAM_DQENB_N (FF)
+  Destination:       SDRAM_DQ<15> (PAD)
+  Source Clock:      your_instance_name/pll_base_inst/CLKOUT1 rising
+
+  Data Path: VideoProcCore_inst/SDRAM_CTRL_inst/SDRAM_DQENB_N to SDRAM_DQ<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             16   0.525   1.181  SDRAM_DQENB_N (SDRAM_DQENB_N)
+     end scope: 'VideoProcCore_inst/SDRAM_CTRL_inst:SDRAM_DQENB_N'
+     end scope: 'VideoProcCore_inst:SDRAM_DQENB_N'
+     IOBUF:T->IO               2.912          SDRAM_DQ_15_IOBUF (SDRAM_DQ<15>)
+    ----------------------------------------
+    Total                      4.618ns (3.437ns logic, 1.181ns route)
+                                       (74.4% logic, 25.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'your_instance_name/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 61 / 27
+-------------------------------------------------------------------------
+Offset:              5.763ns (Levels of Logic = 3)
+  Source:            mcs_0/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i_4 (FF)
+  Destination:       VR<7> (PAD)
+  Source Clock:      your_instance_name/pll_base_inst/CLKOUT0 rising
+
+  Data Path: mcs_0/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i_4 to VR<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            16   0.525   1.410  U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i_4 (GPO3<4>)
+     end scope: 'mcs_0:GPO3<4>'
+     LUT3:I0->O            1   0.235   0.681  Mmux_VR81 (VR_7_OBUF)
+     OBUF:I->O                 2.912          VR_7_OBUF (VR<7>)
+    ----------------------------------------
+    Total                      5.763ns (3.672ns logic, 2.091ns route)
+                                       (63.7% logic, 36.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock PCLK
+----------------------------------------+---------+---------+---------+---------+
+                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------+---------+---------+---------+---------+
+PCLK                                    |    3.064|         |         |         |
+your_instance_name/pll_base_inst/CLKOUT0|    3.917|         |         |         |
+----------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock your_instance_name/pll_base_inst/CLKOUT0
+----------------------------------------+---------+---------+---------+---------+
+                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------+---------+---------+---------+---------+
+PCLK                                    |    2.836|         |         |         |
+your_instance_name/pll_base_inst/CLKOUT0|    7.968|         |         |         |
+your_instance_name/pll_base_inst/CLKOUT1|    4.219|         |         |         |
+----------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock your_instance_name/pll_base_inst/CLKOUT1
+----------------------------------------+---------+---------+---------+---------+
+                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------+---------+---------+---------+---------+
+your_instance_name/pll_base_inst/CLKOUT0|    7.272|         |         |         |
+your_instance_name/pll_base_inst/CLKOUT1|    7.120|         |         |         |
+----------------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.43 secs
+ 
+--> 
+
+Total memory usage is 268756 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   90 (   0 filtered)
+Number of infos    :   23 (   0 filtered)
+
